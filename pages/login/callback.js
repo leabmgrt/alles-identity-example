@@ -29,6 +29,7 @@ export default function LoginCallback({ code }) {
 				}
 			})
 			.catch((err) => {
+				console.log(err);
 				alert(`An error occurred: ${err}`);
 				router.push('/');
 			});

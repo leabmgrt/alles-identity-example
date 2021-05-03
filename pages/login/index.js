@@ -20,6 +20,7 @@ export default function Login() {
 				router.push(response.data.url);
 			})
 			.catch((err) => {
+				console.log(err);
 				alert(`An error occurred: ${err}`);
 			});
 	}

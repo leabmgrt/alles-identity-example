@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 export default async (req, res) => {
+	console.log(process.env.ALLESID_CALLBACK);
 	axios
 		.post(
 			'https://identity.alles.cx/a/v1/flow',
