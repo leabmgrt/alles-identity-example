@@ -86,6 +86,17 @@ export default function Login() {
 						</a>{' '}
 						^^
 					</p>
+					<p className="text-gray-400 text-center mt-2">
+						Oh and btw, the source code is available{' '}
+						<a
+							href="https://git.abmgrt.dev/exc_bad_access/alles-identity-example"
+							target="_blank"
+							className="text-blue-500 underline"
+						>
+							here
+						</a>{' '}
+						;)
+					</p>
 				</div>
 			</div>
 		</div>

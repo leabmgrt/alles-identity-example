@@ -43,7 +43,7 @@ export default function User() {
 	return (
 		<div className="flex flex-wrap flex-col justify-center content-center items-center h-screen w-full p-4 dark:bg-dark-primary">
 			{data != null ? (
-				<div className="flex border border-transparent shadow-xl bg-gray-200 dark:bg-dark-secondary rounded-3xl justify-center">
+				<div className="flex border border-transparent shadow-xl bg-gray-100 dark:bg-dark-secondary rounded-3xl justify-center">
 					<div className="flex flex-col text-center items-center justify-center p-4 px-10 dark:text-white">
 						<img
 							src={data.avatar}
