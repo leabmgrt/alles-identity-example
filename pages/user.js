@@ -24,6 +24,7 @@ export default function User() {
 				setData(response.data);
 			})
 			.catch((err) => {
+				console.log(err.response);
 				alert(`An error occurred: ${err}`);
 			});
 	}
