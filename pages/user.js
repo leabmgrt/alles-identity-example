@@ -67,7 +67,8 @@ export default function User() {
 							What's special here (in this example) is that it actually created
 							a database entry for the user and the session
 							<br />
-							to technically that's all you need to get started now.
+							to authenticate the user. Technically that's all you need to get
+							started now.
 							<br />
 							Alles Identity is only used for signing in.
 						</p>
